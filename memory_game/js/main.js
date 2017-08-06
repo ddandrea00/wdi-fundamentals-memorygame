@@ -1,21 +1,12 @@
 console.log("Up and running!");
 
 var cards = ["queen", "queen", "king", "king"]
-var cardOne = cards[0];
-var cardTwo = cards[2];
 
 var cardInPlay = [];
-cardInPlay.push(cardOne);
 
-	
-console.log("User flipped " + cardInPlay);
+var checkForMatch = function(){
 
-
-cardInPlay.push(cardTwo);
-
-console.log("User flipped " + cardInPlay);
-
-if(cardInPlay.length === 2){
+	if(cardInPlay.length === 2){
 
 	if(cardInPlay[0] === cardInPlay[1]){
 
@@ -24,5 +15,16 @@ if(cardInPlay.length === 2){
 	}else{
 		alert("Sorry, try again.");
 	}
-	
 }
+}
+
+var flipCard = function(cardId){
+
+		cardInPlay.push(cards[cardId]);
+		console.log("User flipped " + cards[cardId]);
+
+checkForMatch();
+}
+
+flipCard(0);
+flipCard(2);
