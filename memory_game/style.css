@@ -1,103 +1,101 @@
 header{
 	background-color: #F15B31;
 	padding:30px 20px 30px 20px;
-	margin: 10px;
+	margin: 0;
+}
+
+h1{
+	margin: 0;
+} 
+
+header h1 {
+	font-family:"Raleway";
+	color:#0D2C40;
+	letter-spacing: 1px;
+	font-weight: 400px;
+	font-size: 45px;
+	margin: 0;
+}
+
+a{
+	border-bottom: 2px solid transparent;
+}
+
+a:hover{
+	border-color: white;
 }
 
 nav{
 	background-color: #00A6B3;
-	padding:20px 20px 20px 20px;
-
+	padding: 20px 0px 20px 0px;
 }
 
-nav a {
-	border-bottom: 2px solid transparent;
-}
+nav a{
 
-a:hover {
-	border:white;
-}
-body{
-
-text-align: center;
-padding:10px;
-margin: 0;
+	font-family:"Raleway";
+	color:#F15B31;
+	letter-spacing: 1px;
+	font-weight: 600
+	font-size:18px;
+	margin:0px 20px 0px 20px;
 }
 
 main{
-	text-align: center;
-	width:850px;
-	margin: 35px auto;
-	margin-left: auto;
-	margin-right: auto;
+
+	width: 850px;
+	margin: 35px auto 35px auto;
 }
 
-h1{
+main h2{
+
 	font-family: "Raleway";
-	color: white;
+	color:#0D2C40;
 	letter-spacing: 1px;
-	font-weight: 400;
-	font-size: 45px;
-	padding:10px;
+	font-weight:600;
+	font-size: 20px;
+}
+
+body{
+	text-align: center;
 	margin: 0;
 }
 
-h2{
-	font-family: "Raleway";
-	color: #0D2C40;
-	letter-spacing: 1px;
-	font-weight: 600;
-	font-size: 20px;
-	padding:10px;
-margin: 10px;
-}
-
-a{
-	font-family: "Raleway";
-	color: white;
-	letter-spacing: 1px;
-	font-weight: 600;
-	font-size: 18px;
-}
-
-img{
-
-	margin:40px 8px 0px 8px;
+p{
+	font-family: "Droid Serif";
+	line-height: 26px;
+	font-size:18px;	
 }
 
 footer{
 	text-transform: uppercase;
-	padding: 0 20px;
-	background: #0D2C40;
-	text-decoration-color: white;
-	font-size: 14px;
+	padding:0px 20px 0px 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size:14px;
 	letter-spacing: .08em;
 	font-weight: 500;
 }
 
-.copyright{
+ .copyright{
 	font-family: "Raleway";
-	float:left;
-
+	float: left;
 }
 
-.message{
-font-family: "Raleway";
-	float:right;
-
+ .message{
+	font-family: "Raleway";
+	float: right;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
 
-.clearfix:after {
+.name{
 
-visibility: hidden;
-display:block;
-content: " ";
-clear:both;
-height: 0;
-font-size: 0;
-}
+	color:#F15B31;
 
-.name {
-font-weight: 700;
-color: #F15B31;
 }
